@@ -10,6 +10,12 @@ switch ($request) {
     case '/home' :
         require __DIR__ . '/views/home.php';
         break;
+    case '/edurino/collectClicks' :
+        require __DIR__ . '/dataCollection/edurino/collectClicks.php';
+        break;
+    case '/edurino/collectEvents' :
+        require __DIR__ . '/dataCollection/edurino/collectEvents.php';
+        break;
     default:
         http_response_code(404);
         require __DIR__ . '/views/404.php';
