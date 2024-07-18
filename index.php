@@ -17,7 +17,7 @@ switch ($request) {
         require __DIR__ . '/dataCollection/edurino/collectEvents.php';
         break;
     case '/edurino/app' :
-        redirect('http://80.151.77.163:9981/pie?pieid=13&name=edurino_en');
+        require __DIR__ . '/views/app.php';
         break;
     case '/edurino/qr' :
         incrementCounter($_SERVER['DOCUMENT_ROOT'].'/data/edurino/qr.txt');

@@ -40,7 +40,7 @@
     <h1>Welcome to My Testing Server</h1>
     <p>Hello, this is a testing server used to collect data from testers like you. Thank you for helping me improve my projects!</p>
     <p>Please proceed by testing my current school project, which is a kiosk app for Edurino.</p>
-    <a href="http://80.151.77.163:9981/pie?pieid=13&name=edurino_en" class="button">Start Testing the Edurino Kiosk App</a>
+    <a href="/edurino/app" class="button">Start Testing the Edurino Kiosk App</a>
 </div>
 </body>
 </html>
